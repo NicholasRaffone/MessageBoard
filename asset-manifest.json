@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NicholasRaffone/MessageBoardFront/static/css/main.a617e044.chunk.css",
+    "main.js": "/NicholasRaffone/MessageBoardFront/static/js/main.331f017b.chunk.js",
+    "main.js.map": "/NicholasRaffone/MessageBoardFront/static/js/main.331f017b.chunk.js.map",
+    "runtime-main.js": "/NicholasRaffone/MessageBoardFront/static/js/runtime-main.6f45eee6.js",
+    "runtime-main.js.map": "/NicholasRaffone/MessageBoardFront/static/js/runtime-main.6f45eee6.js.map",
+    "static/js/2.9b0f525c.chunk.js": "/NicholasRaffone/MessageBoardFront/static/js/2.9b0f525c.chunk.js",
+    "static/js/2.9b0f525c.chunk.js.map": "/NicholasRaffone/MessageBoardFront/static/js/2.9b0f525c.chunk.js.map",
+    "static/js/3.6c7f7764.chunk.js": "/NicholasRaffone/MessageBoardFront/static/js/3.6c7f7764.chunk.js",
+    "static/js/3.6c7f7764.chunk.js.map": "/NicholasRaffone/MessageBoardFront/static/js/3.6c7f7764.chunk.js.map",
+    "index.html": "/NicholasRaffone/MessageBoardFront/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/NicholasRaffone/MessageBoardFront/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.9b0f525c.chunk.js.LICENSE.txt": "/NicholasRaffone/MessageBoardFront/static/js/2.9b0f525c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/NicholasRaffone/MessageBoardFront/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f45eee6.js",
+    "static/js/2.9b0f525c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.331f017b.chunk.js"
+  ]
+}
