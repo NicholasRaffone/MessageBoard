@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/MessageBoardFront/static/css/main.a617e044.chunk.css",
-    "main.js": "/MessageBoardFront/static/js/main.331f017b.chunk.js",
-    "main.js.map": "/MessageBoardFront/static/js/main.331f017b.chunk.js.map",
-    "runtime-main.js": "/MessageBoardFront/static/js/runtime-main.8368e180.js",
-    "runtime-main.js.map": "/MessageBoardFront/static/js/runtime-main.8368e180.js.map",
-    "static/js/2.9b0f525c.chunk.js": "/MessageBoardFront/static/js/2.9b0f525c.chunk.js",
-    "static/js/2.9b0f525c.chunk.js.map": "/MessageBoardFront/static/js/2.9b0f525c.chunk.js.map",
-    "static/js/3.6c7f7764.chunk.js": "/MessageBoardFront/static/js/3.6c7f7764.chunk.js",
-    "static/js/3.6c7f7764.chunk.js.map": "/MessageBoardFront/static/js/3.6c7f7764.chunk.js.map",
-    "index.html": "/MessageBoardFront/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/MessageBoardFront/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.9b0f525c.chunk.js.LICENSE.txt": "/MessageBoardFront/static/js/2.9b0f525c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/MessageBoardFront/static/media/logo.6ce24c58.svg"
+    "main.css": "/MessageBoard/static/css/main.a617e044.chunk.css",
+    "main.js": "/MessageBoard/static/js/main.331f017b.chunk.js",
+    "main.js.map": "/MessageBoard/static/js/main.331f017b.chunk.js.map",
+    "runtime-main.js": "/MessageBoard/static/js/runtime-main.1c041555.js",
+    "runtime-main.js.map": "/MessageBoard/static/js/runtime-main.1c041555.js.map",
+    "static/js/2.9b0f525c.chunk.js": "/MessageBoard/static/js/2.9b0f525c.chunk.js",
+    "static/js/2.9b0f525c.chunk.js.map": "/MessageBoard/static/js/2.9b0f525c.chunk.js.map",
+    "static/js/3.6c7f7764.chunk.js": "/MessageBoard/static/js/3.6c7f7764.chunk.js",
+    "static/js/3.6c7f7764.chunk.js.map": "/MessageBoard/static/js/3.6c7f7764.chunk.js.map",
+    "index.html": "/MessageBoard/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/MessageBoard/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.9b0f525c.chunk.js.LICENSE.txt": "/MessageBoard/static/js/2.9b0f525c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/MessageBoard/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8368e180.js",
+    "static/js/runtime-main.1c041555.js",
     "static/js/2.9b0f525c.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.331f017b.chunk.js"
