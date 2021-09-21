@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nicholasraffone.github.io/MessageBoardFront/",
+  "homepage": "https://nicholasraffone.github.io/MessageBoard/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
