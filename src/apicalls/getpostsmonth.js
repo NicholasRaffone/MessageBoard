@@ -1,6 +1,6 @@
 const getPostsMonth = (year, month) => {
     const resp = fetch(`https://messageboard-back.herokuapp.com/api/posts/get_posts_month/`, {
-        method: 'GET',
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
