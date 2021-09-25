@@ -36,12 +36,13 @@
 .postdetail{
   z-index: 3;
   position: fixed;
-  margin-left: 25vw;
-  margin-top: 10vh;
+  margin-left: 15vw;
+  margin-top: 5vh;
   height:80vh;
-  background-color: red;
-  width: 50vw;
+  border-radius: 40px;
+  width: 70vw;
   opacity: 100;
+  padding: 20px;
 }
 .postcover{
   position: fixed;
@@ -59,4 +60,26 @@
   visibility: visible;
   opacity: 1;
   animation: fadein 0.2s;
+}
+
+.form{
+  background-color: rgb(251, 255, 227);
+}
+.detail{
+  background-color: rgb(194, 255, 226);
+
+}
+.dot{
+  height: 80px;
+  width: 80px;
+  border-radius: 20%;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.3s;
+}
+.selected{
+  box-shadow:2px 2px rgb(0, 0, 0);
+}
+.dot:not(.selected):hover{
+  box-shadow:2px 2px rgb(117, 117, 117);
 }

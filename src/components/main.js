@@ -10,6 +10,7 @@ const Main = (props) => {
         var clickX = e.clientX + container.current.getElement().scrollLeft;
         var clickY = e.clientY + container.current.getElement().scrollTop;
         console.log(clickX, clickY)
+        props.setCoords([clickX, clickY])
         props.setmakePost(true)
     }
 
@@ -33,7 +34,8 @@ const Main = (props) => {
                                 color={val.color}
                                 setID={props.setID}
                             />)
-                        }) : null
+                        }) :
+                        null
                 }
             </div>
         </ScrollContainer>

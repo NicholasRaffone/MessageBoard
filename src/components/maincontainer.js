@@ -9,13 +9,13 @@ const MainContainer = () => {
     const [posts, setPosts] = useState([])
     const [currpost, setCurrpost] = useState([])
     const [makePost, setmakePost] = useState(false)
+    const [coords, setCoords] = useState([])
 
     //get posts every time page loads / <<NEW POST IS MADE>>
     useEffect(() => {
         getPostsMonth('2021', '9').then(resp => { setPosts(resp.posts) });
-    }, []);
+    }, [, makePost]);
 
-    //on post submit, update posts 
     //update currentpost as postID or posts changes: meaning if a posts is updated, posts will be displayed
     useEffect(() => {
         const val = posts.find(function (val) {
@@ -29,6 +29,7 @@ const MainContainer = () => {
             <MakePost
                 class={makePost}
                 setmakePost={(val) => setmakePost(val)}
+                coords={coords}
             />
             <PostDetail
                 setID={(id) => setID(id)}
@@ -40,6 +41,7 @@ const MainContainer = () => {
                 setID={(id) => setID(id)}
                 posts={posts}
                 setmakePost={(val) => setmakePost(val)}
+                setCoords={(val) => { setCoords(val) }}
             />
         </React.Fragment>
     )
