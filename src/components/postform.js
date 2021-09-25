@@ -13,9 +13,25 @@ const PostForm = (props) => {
         setText(newtext.target.value)
     }
     return (
-        <form>
+        <form onSubmit={
+            (e) => {
+                e.preventDefault();
+                MakePost(title, text, props.xpos, props.ypos, colors[color]);
+                setTitle(''); setText(''); setColor(0);
+                props.setmakePost(false)
+            }
+        }>
+            <div className="postformtitle">
+                <h1>Make a Post</h1>
+                <div className="exitbutton" >
+                    <button type="button" onClick={() => {
+                        setTitle(''); setText(''); setColor(0);
+                        props.setmakePost(false)
+                    }} >X</button>
+                </div>
+            </div>
             <input value={title} onChange={changeTitle} required="required" maxlength="50" /><br />
-            <textarea value={text} onChange={changeText} /><br />
+            <textarea value={text} onChange={changeText} required="required" /><br />
             <br />
             {
                 colors.map((val, i) => {
@@ -23,12 +39,7 @@ const PostForm = (props) => {
                 })
             }
             <br /><br />
-            <input type="submit" onClick={(e) => {
-                e.preventDefault();
-                MakePost(title, text, props.xpos, props.ypos, colors[color]);
-                setTitle(''); setText(''); setColor(0);
-                props.setmakePost(false)
-            }} />
+            <input type="submit" />
         </form>
     )
 }

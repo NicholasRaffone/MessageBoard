@@ -13,7 +13,8 @@ const Post = (props) => {
         <div className="element" onClick={(e) => clickHandler(e)} style={style}>
             <p>
                 {props.title}
-            </p>
+            </p><br />
+            {props.is_admin ? <img className="checkmark" src="https://cdn-icons-png.flaticon.com/512/3699/3699516.png" /> : null}
         </div>
     )
 }

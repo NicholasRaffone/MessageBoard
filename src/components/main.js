@@ -4,12 +4,10 @@ import Post from './post'
 
 
 const Main = (props) => {
-    const [token, setToken] = useState('');
     const container = useRef(null);
     const clickHandler = (e) => {
         var clickX = e.clientX + container.current.getElement().scrollLeft;
         var clickY = e.clientY + container.current.getElement().scrollTop;
-        console.log(clickX, clickY)
         props.setCoords([clickX, clickY])
         props.setmakePost(true)
     }
@@ -22,7 +20,7 @@ const Main = (props) => {
     }, []);
     return (
         <ScrollContainer className="scroll-container" ref={container} >
-            <div className="main" onClick={(e) => (clickHandler(e))}>
+            <div className="main" onClick={(e) => { if (props.valid) { clickHandler(e); } }}>
                 {
                     props.posts ?
                         props.posts.map((val, e) => {
@@ -32,13 +30,14 @@ const Main = (props) => {
                                 xpos={val.xpos}
                                 ypos={val.ypos}
                                 color={val.color}
+                                is_admin={val.is_admin}
                                 setID={props.setID}
                             />)
                         }) :
                         null
                 }
             </div>
-        </ScrollContainer>
+        </ScrollContainer >
     )
 }
 
