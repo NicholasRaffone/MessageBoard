@@ -1,6 +1,6 @@
 const getCommentsPost = (post) => {
     const resp = fetch(`https://messageboard-back.herokuapp.com/api/comments/get_comments_post/`, {
-        method: 'GET',
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },

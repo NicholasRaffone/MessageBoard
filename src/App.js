@@ -1,14 +1,11 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-import Main from './components/main'
+import MainContainer from './components/maincontainer'
 
+//if looking at detail, show postcover and postdetail
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Main />
-      </header>
-    </div>
+    <MainContainer />
   );
 }
 
