@@ -328,6 +328,7 @@ body{
   -webkit-text-security: circle;
   font-size: 30px;
   transition: 0.3s;
+  text-align: left;
 }
 .passinput{
   cursor: pointer;

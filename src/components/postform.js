@@ -30,8 +30,8 @@ const PostForm = (props) => {
                     }} >X</button>
                 </div>
             </div>
-            <input className="posttitleinp" value={title} onChange={changeTitle} required="required" maxlength="50" /><br />
-            <textarea className="postvalinp" value={text} onChange={changeText} required="required" /><br />
+            <input placeholder="Enter a Title..." className="posttitleinp" value={title} onChange={changeTitle} required="required" maxlength="50" /><br />
+            <textarea placeholder="Enter Some Text..." className="postvalinp" value={text} onChange={changeText} required="required" /><br />
             <br />
             {
                 colors.map((val, i) => {
