@@ -70,10 +70,9 @@ const SideBar = (props) => {
                             null
                     }
                 </div>
-
             </div>
             <button
-                style={{ 'position': 'fixed', 'zIndex': 2, 'margin-left': `${props.showsidebar ? 'calc(20% - 30px)' : '10px'}` }}
+                style={{ 'position': 'fixed', 'zIndex': 2, 'margin-left': `${props.showsidebar ? 'max(170px, calc(20% - 30px))' : '10px'}` }}
                 onClick={() => { props.setShowSidebar(!props.showsidebar) }}
                 className="sidebarbutton"
             ><img className="hamburger" src={`${props.showsidebar ? close : hamburger}`} /></button>

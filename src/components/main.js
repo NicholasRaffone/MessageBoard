@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react'
 import ScrollContainer from 'react-indiana-drag-scroll'
 import Post from './post'
 
-
 const Main = (props) => {
     const container = useRef(null);
     const clickHandler = (e) => {
@@ -19,7 +18,7 @@ const Main = (props) => {
         }
     }, []);
     return (
-        <ScrollContainer className="scroll-container" ref={container} >
+        <ScrollContainer className="scroll-container" ref={container} hideScrollbars={false}>
             <div className="main" onClick={(e) => { if (props.valid) { clickHandler(e); } }}>
                 {
                     props.posts ?

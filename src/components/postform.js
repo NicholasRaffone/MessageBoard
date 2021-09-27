@@ -5,7 +5,7 @@ const PostForm = (props) => {
     const [title, setTitle] = useState('')
     const [text, setText] = useState('')
     const [color, setColor] = useState(0)
-    const colors = ['#ff00ff', '#00ffff', '#ffff00']
+    const colors = ['#ffe6ff', '#ffd6d6', '#fff4e6', '#fdffe6', '#e6ffec', '#e6fffb',]
     const changeTitle = (newtitle) => {
         setTitle(newtitle.target.value)
     }
@@ -16,9 +16,9 @@ const PostForm = (props) => {
         <form onSubmit={
             (e) => {
                 e.preventDefault();
-                MakePost(title, text, props.xpos, props.ypos, colors[color]);
+                console.log(title, text, props.xpos, props.ypos, colors[color], props.token)
+                MakePost(title, text, props.xpos, props.ypos, colors[color], props.token).then(() => props.setmakePost(false));
                 setTitle(''); setText(''); setColor(0);
-                props.setmakePost(false)
             }
         }>
             <div className="postformtitle">
@@ -30,8 +30,8 @@ const PostForm = (props) => {
                     }} >X</button>
                 </div>
             </div>
-            <input value={title} onChange={changeTitle} required="required" maxlength="50" /><br />
-            <textarea value={text} onChange={changeText} required="required" /><br />
+            <input className="posttitleinp" value={title} onChange={changeTitle} required="required" maxlength="50" /><br />
+            <textarea className="postvalinp" value={text} onChange={changeText} required="required" /><br />
             <br />
             {
                 colors.map((val, i) => {
@@ -39,7 +39,7 @@ const PostForm = (props) => {
                 })
             }
             <br /><br />
-            <input type="submit" />
+            <input className="submitpost" type="submit" />
         </form>
     )
 }

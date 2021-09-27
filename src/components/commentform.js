@@ -10,10 +10,11 @@ const CommentForm = (props) => {
         <div className="commentform">
             {props.currpost ?
                 <form>
-                    <textarea value={text} onChange={changeText} /><br />
-                    <input type="submit" onClick={(e) => {
+                    <br />
+                    <textarea value={text} onChange={changeText} className="postvalinp" /><br /><br />
+                    <input type="submit" className="submitpost" onClick={(e) => {
                         e.preventDefault();
-                        MakeComment(text, props.currpost.id).then(() => props.incComments());
+                        MakeComment(text, props.currpost.id, props.token).then(() => props.incComments());
                         setText('');
                     }} />
                 </form>

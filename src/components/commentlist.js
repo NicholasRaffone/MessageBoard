@@ -1,18 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import CommentEntry from './commententry'
 
 const CommentList = (props) => {
     return (
         <div className="commentdiv">
             {
-                props.comments ?
+                props.comments !== [] ?
                     props.comments.map((val, i) => {
                         return (
-                            <div className="commenttext">
-                                {val.text}
-                            </div>
+                            <CommentEntry val={val} incComments={props.incComments} validated={props.validated} token={props.token} />
                         )
-                    }) :
-                    null
+                    }) : null
             }
         </div>
     )

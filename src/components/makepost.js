@@ -13,6 +13,7 @@ const MakePost = (props) => {
                     xpos={props.coords[0]}
                     ypos={props.coords[1]}
                     setmakePost={props.setmakePost}
+                    token={props.token}
                 />
             </div>
         </div >
