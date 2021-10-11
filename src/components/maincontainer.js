@@ -10,7 +10,7 @@ import getPostsMonth from '../apicalls/getpostsmonth'
 const MainContainer = () => {
     const sha512 = require('js-sha512');
     const today = new Date();
-    const start_month = 9
+    const start_month = 10
     const start_year = 2021
     const this_month = today.getMonth() + 1
     const this_year = today.getFullYear();
