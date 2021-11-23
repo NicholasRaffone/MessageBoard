@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MessageBoard/static/css/main.84a8c02c.chunk.css",
-    "main.js": "/MessageBoard/static/js/main.e15e25e9.chunk.js",
-    "main.js.map": "/MessageBoard/static/js/main.e15e25e9.chunk.js.map",
+    "main.css": "/MessageBoard/static/css/main.ed552698.chunk.css",
+    "main.js": "/MessageBoard/static/js/main.3e15189e.chunk.js",
+    "main.js.map": "/MessageBoard/static/js/main.3e15189e.chunk.js.map",
     "runtime-main.js": "/MessageBoard/static/js/runtime-main.f1c50d89.js",
     "runtime-main.js.map": "/MessageBoard/static/js/runtime-main.f1c50d89.js.map",
     "static/js/2.ec939005.chunk.js": "/MessageBoard/static/js/2.ec939005.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.2dbd3326.chunk.js": "/MessageBoard/static/js/3.2dbd3326.chunk.js",
     "static/js/3.2dbd3326.chunk.js.map": "/MessageBoard/static/js/3.2dbd3326.chunk.js.map",
     "index.html": "/MessageBoard/index.html",
-    "static/css/main.84a8c02c.chunk.css.map": "/MessageBoard/static/css/main.84a8c02c.chunk.css.map",
+    "static/css/main.ed552698.chunk.css.map": "/MessageBoard/static/css/main.ed552698.chunk.css.map",
     "static/js/2.ec939005.chunk.js.LICENSE.txt": "/MessageBoard/static/js/2.ec939005.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1c50d89.js",
     "static/js/2.ec939005.chunk.js",
-    "static/css/main.84a8c02c.chunk.css",
-    "static/js/main.e15e25e9.chunk.js"
+    "static/css/main.ed552698.chunk.css",
+    "static/js/main.3e15189e.chunk.js"
   ]
 }
